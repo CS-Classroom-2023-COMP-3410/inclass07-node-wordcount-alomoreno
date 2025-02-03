@@ -1,0 +1,12 @@
+{
+  "name": "inclass07-node-wordcount",
+  "version": "1.0.0",
+  "description": "Wordcount exercise for Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

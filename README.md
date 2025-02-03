@@ -19,6 +19,22 @@ In this exercise, you'll be constructing a Node.js application that reads in a p
 
 4. Looking at the contents of the repository, determine what packages you need to install to complete the exercise. You may need to install additional packages to complete the exercise (including a testing library). Note that some packages may also require additional configuration to work correctly (e.g. updating the `package.json` file).
 
+   To get started, you will need to install the following packages:
+   - `jest` for running the test suite.
+   - `chalk` for coloring the words based on their frequency.
+
+   You can install these packages by running:
+   ```
+   npm install jest chalk
+   ```
+
+   Make sure to update your `package.json` to include a test script:
+   ```json
+   "scripts": {
+     "test": "jest"
+   }
+   ```
+
 5. In the repository, you'll find an `app.js` file with several `TODO` comments. Your task is to complete this file based on the instructions given in those comments.
 
 6. You're also provided with a test suite inside the `__tests__` directory in a file named `test-app.js`. These tests are designed to check the correctness of your implementation.
